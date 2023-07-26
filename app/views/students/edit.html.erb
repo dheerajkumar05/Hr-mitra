@@ -1,0 +1,17 @@
+<div class="col-lg-8">
+  <div class="card rounded-0 mb-5">
+    <div class="card-body">
+      <h2 class="text-center">Editing student</h2>
+
+         <%= render "form", student: @student %>
+
+         <br>
+
+         <div>
+           <%= link_to "Show this student", @student, class:"btn btn-info rounded-0 mt-3" %> |
+           <%= link_to "Back to students", students_path , class:"btn btn-outline-info rounded-0 mt-3"%>
+         </div>
+       </div>
+     </div>
+   </div>
+
